@@ -66,8 +66,8 @@ function playpausedecider(){
 }
 
 function InitializeSong() {
-    cover.src = `{sortedPlayList[index].file}.jpg`;
-    Song.src = `{sortedPlayList[index].file}.mp3`;
+    cover.src = `/${sortedPlayList[index].file}.jpg`;
+    Song.src = `/${sortedPlayList[index].file}.mp3`;
     Songname.innerText = sortedPlayList[index].Songname;
     nameband.innerText = sortedPlayList[index].artist;
 
